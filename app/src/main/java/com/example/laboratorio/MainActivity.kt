@@ -44,9 +44,9 @@ class MainActivity : AppCompatActivity() {
        Lv_Listado.Adapter
 
 
-       lv_listado?.onItemClickListener=object : AdapterView.OnItemClickListener{
+       Lv_listado?.onItemClickListener=object : AdapterView.OnItemClickListener{
                 override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                    tv_Resultado.setText("Los datos de ${Nombre.get(p2)} la edad s ${Edad.get(p2)} Y vive el el departamento de ${Departamento.get(p2)}")
+                    tv_Resultado.setText("Los datos de ${Nombre.get(p2)} la edad es ${Edad.get(p2)} Y recide  en el departamento de ${Departamento.get(p2)}")
 
         }else{
 
